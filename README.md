@@ -29,10 +29,13 @@ A simple browser extension that lets you **control Spotify Web Player (open.spot
 4.Click Load unpacked and select this folder.
 5.The extension should appear in your toolbar.
 Keyboard Shortcuts
-Action	              Windows/Linux Default	    macOS Default
-Play / Pause	        Ctrl + Shift + P	       Command + Shift + P
-Next Track	          Ctrl + Shift + N	       Command + Shift + N
-Previous Track	      Ctrl + Shift + B	       Command + Shift + B
+
+| Action         | Windows/Linux Default | macOS Default       |
+|----------------|-----------------------|---------------------|
+| Play / Pause   | Ctrl + Shift + P      | Command + Shift + P |
+| Next Track     | Ctrl + Shift + N      | Command + Shift + N |
+| Previous Track | Ctrl + Shift + B      | Command + Shift + B |
+
 
 To change shortcuts:
 
