@@ -22,7 +22,7 @@ A simple browser extension that lets you **control Spotify Web Player (open.spot
 
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/spotify-controller-extension.git
+git clone https://github.com/Zageraus/spotify-controller-extension.git
 2. Open your browser and go to:
    brave://extensions/
 3.Enable Developer mode (top-right toggle).
