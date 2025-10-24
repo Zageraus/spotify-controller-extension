@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Spotify Web Controller",
+  "version": "1.0",
+  "description": "Control Spotify Web Player (play/pause, next, previous, seek) from any tab.",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.spotify.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Spotify Controls"
+  },
+  "commands": {
+    "toggle-play": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Play / Pause Spotify"
+    },
+    "next-track": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+N",
+        "mac": "Command+Shift+N"
+      },
+      "description": "Next track"
+    },
+    "prev-track": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+B",
+        "mac": "Command+Shift+B"
+      },
+      "description": "Previous track"
+    }
+  }
+}
